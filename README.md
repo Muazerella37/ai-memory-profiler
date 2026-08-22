@@ -25,6 +25,10 @@ Run the generator to create synthetic memory logs:
 python dataset_generator.py
 ```
 
+## Download the Model Weights
+You can download the pre-trained `.gguf` weights directly from Hugging Face:
+[Download ai-memory-profiler-gguf here](https://huggingface.co/Muazerella37/llama-3-8b.Q4_K_M/blob/main/llama-3-8b.Q4_K_M.gguf)
+
 ### 2. Run Inference with Ollama
 Make sure you have [Ollama](https://ollama.com/) installed on your machine.
 Place your `.gguf` model file in the same directory as the `Modelfile`.
